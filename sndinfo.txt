@@ -1,0 +1,63 @@
+rpr1  dsrepar1
+rpr2  dsrepar2
+rpr3  dsrepar3
+rpr4  dsrepar4
+rpr5  dsrepar5
+rpr6  dsrepar6
+rpr7  dsrepar7
+rpr8  dsrepar8
+rpr9  dsrepar9
+rpr10 dsrepar10
+$random derp/repairtry { rpr1 rpr2 rpr3 rpr4 rpr5 rpr6 rpr7 rpr8 rpr9 rpr10 }
+$random herp/repairtry { rpr1 rpr2 rpr3 rpr4 rpr5 rpr6 rpr7 rpr8 rpr9 rpr10 }
+
+herp/beep dshbeep
+herp/beep dshbeep
+
+//weapons
+p_fire1 dspfire1
+p_fire2 dspfire2
+p_fire3 dspfire3
+p_fire4 dspfire4
+p_fire5 dspfire5
+$random weapons/pistol { p_fire1 p_fire2 p_fire3 p_fire4 p_fire5 }
+
+weapons/pismagclick dspejct1
+weapons/pistoldry   dsnoamm
+weapons/pischamber1 dspreld
+weapons/pischamber2 dspejct2
+
+weapons/deinoblast1 dsrevsht
+
+weapons/smg dssmgf
+weapons/smgchamber  dspreld
+weapons/smgmagclick dspejct1
+weapons/smgmagmove  dseject
+
+weapons/huntrack     dsshpump
+weapons/huntrackup   dsshpump $pitchshift weapons/huntrackup   0 $pitchset weapons/huntrackup   1
+weapons/huntrackdown dsshpump $pitchshift weapons/huntrackdown 0 $pitchset weapons/huntrackdown 0.9
+weapons/slayersingle dssshotg
+
+weapons/vulcanette dsvulc
+
+//misc
+misc/casing2 dscasin1
+misc/casing3 dscasin2
+
+bltck1 dscolli1
+bltck2 dscolli2
+$random misc/bullethit { bltck1 bltck2 }
+
+chlp1 dshit1
+chlp2 dshit2
+chlp3 dshit3
+chlp4 dshit4
+chlp5 dshit5
+chlp6 dshit6
+$random misc/bulletflesh { chlp1 chlp2 chlp3 chlp4 chlp5 chlp6 }
+
+eqp1 dsequip1
+eqp2 dsequip2
+eqp3 dsequip3
+$random misc/w_pkup { eqp1 eqp2 eqp3 }
