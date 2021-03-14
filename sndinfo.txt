@@ -20,14 +20,15 @@ p_fire2 dspfire2
 p_fire3 dspfire3
 p_fire4 dspfire4
 p_fire5 dspfire5
-$random weapons/pistol { p_fire1 p_fire2 p_fire3 p_fire4 p_fire5 }
+$random weapons/pistol      { p_fire1 p_fire2 p_fire3 p_fire4 p_fire5 }
+$random weapons/deinoblast1 { p_fire1 p_fire2 p_fire3 p_fire4 p_fire5 }
 
 weapons/pismagclick dspejct1
 weapons/pistoldry   dsnoamm
 weapons/pischamber1 dspreld
 weapons/pischamber2 dspejct2
 
-weapons/deinoblast1 dsrevsht
+weapons/deinoeject dsnoamm
 
 weapons/smg dssmgf
 weapons/smgchamber  dspreld
@@ -37,9 +38,27 @@ weapons/smgmagmove  dseject
 weapons/huntrack     dsshpump
 weapons/huntrackup   dsshpump $pitchshift weapons/huntrackup   0 $pitchset weapons/huntrackup   1
 weapons/huntrackdown dsshpump $pitchshift weapons/huntrackdown 0 $pitchset weapons/huntrackdown 0.9
-weapons/slayersingle dssshotg
+weapons/slayersingle dsdshtgn
+
+weapons/rifchamber dsriflod
+
+weapons/libchamber dsriflod
 
 weapons/vulcanette dsvulc
+
+weapons/rocklaunch dsrcksht
+
+weapons/bronto  dsrlaunc
+weapons/bronto2 dsdshtgn
+
+weapons/plascrack dstbfire
+
+tbcg1 dstbchg1
+tbcg2 dstbchg2
+tbcg3 dstbchg3
+$random weapons/plasidle { tbcg1 tbcg2 tbcg3 }
+
+weapons/bigrifle2 dsbrifl2
 
 //misc
 misc/casing2 dscasin1
