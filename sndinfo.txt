@@ -28,9 +28,11 @@ weapons/pistoldry   dsnoamm
 weapons/pischamber1 dspreld
 weapons/pischamber2 dspejct2
 
-weapons/deinoeject dsnoamm
+weapons/deinoeject dsrifck3
+weapons/deinocyl   dsnoamm
+weapons/deinoclick dsnoamm
 
-weapons/smg dssmgf
+weapons/smg         dssmgf
 weapons/smgchamber  dspreld
 weapons/smgmagclick dspejct1
 weapons/smgmagmove  dseject
