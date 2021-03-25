@@ -37,23 +37,28 @@ weapons/smgchamber  dspreld
 weapons/smgmagclick dspejct1
 weapons/smgmagmove  dseject
 
+weapons/huntreload   dsdbload
 weapons/huntrack     dsshpump
 weapons/huntrackup   dsshpump $pitchshift weapons/huntrackup   0 $pitchset weapons/huntrackup   1
 weapons/huntrackdown dsshpump $pitchshift weapons/huntrackdown 0 $pitchset weapons/huntrackdown 0.9
 weapons/slayersingle dsdshtgn
+
+weapons/sshotl dsdbload
 
 weapons/rifchamber dsriflod
 
 weapons/libchamber dsriflod
 
 weapons/vulcanette dsvulc
+weapons/vulcopen1  dsdbload
 
 weapons/rocklaunch dsrcksht
 
 weapons/bronto  dsrlaunc
 weapons/bronto2 dsdshtgn
 
-weapons/plascrack dstbfire
+weapons/plasswitch dsdbload
+weapons/plascrack  dstbfire
 
 tbcg1 dstbchg1
 tbcg2 dstbchg2
